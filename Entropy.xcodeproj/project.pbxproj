@@ -14,6 +14,9 @@
 		57336A191C47119B007C879A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57336A171C47119B007C879A /* LaunchScreen.storyboard */; };
 		57336A241C47119B007C879A /* EntropyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57336A231C47119B007C879A /* EntropyTests.swift */; };
 		57336A2F1C47119B007C879A /* EntropyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57336A2E1C47119B007C879A /* EntropyUITests.swift */; };
+		57CE453F1C47171C00F98E44 /* GPSLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE453E1C47171C00F98E44 /* GPSLocation.swift */; };
+		57CE45411C47190C00F98E44 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CE45401C47190C00F98E44 /* CoreLocation.framework */; };
+		57CE45451C4719B000F98E44 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE45441C4719B000F98E44 /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		57336A2A1C47119B007C879A /* EntropyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntropyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57336A2E1C47119B007C879A /* EntropyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntropyUITests.swift; sourceTree = "<group>"; };
 		57336A301C47119B007C879A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CE453E1C47171C00F98E44 /* GPSLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSLocation.swift; sourceTree = "<group>"; };
+		57CE45401C47190C00F98E44 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		57CE45441C4719B000F98E44 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CE45411C47190C00F98E44 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,8 @@
 		57336A021C47119B007C879A = {
 			isa = PBXGroup;
 			children = (
+				57CE45441C4719B000F98E44 /* Notes.swift */,
+				57CE45401C47190C00F98E44 /* CoreLocation.framework */,
 				57336A0D1C47119B007C879A /* Entropy */,
 				57336A221C47119B007C879A /* EntropyTests */,
 				57336A2D1C47119B007C879A /* EntropyUITests */,
@@ -99,6 +108,7 @@
 			children = (
 				57336A0E1C47119B007C879A /* AppDelegate.swift */,
 				57336A101C47119B007C879A /* ViewController.swift */,
+				57CE453E1C47171C00F98E44 /* GPSLocation.swift */,
 				57336A121C47119B007C879A /* Main.storyboard */,
 				57336A151C47119B007C879A /* Assets.xcassets */,
 				57336A171C47119B007C879A /* LaunchScreen.storyboard */,
@@ -259,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CE453F1C47171C00F98E44 /* GPSLocation.swift in Sources */,
 				57336A111C47119B007C879A /* ViewController.swift in Sources */,
 				57336A0F1C47119B007C879A /* AppDelegate.swift in Sources */,
+				57CE45451C4719B000F98E44 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Entropy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattchess.Entropy;
@@ -413,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Entropy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattchess.Entropy;
@@ -487,6 +501,7 @@
 				57336A351C47119B007C879A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57336A361C47119B007C879A /* Build configuration list for PBXNativeTarget "EntropyTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +510,7 @@
 				57336A381C47119B007C879A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57336A391C47119B007C879A /* Build configuration list for PBXNativeTarget "EntropyUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +519,7 @@
 				57336A3B1C47119B007C879A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
