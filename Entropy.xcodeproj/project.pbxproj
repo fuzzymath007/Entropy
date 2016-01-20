@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570FADC81C4E7F7800C97F22 /* OWInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FADC71C4E7F7800C97F22 /* OWInterface.swift */; };
+		570FADCA1C4E806000C97F22 /* CurrentWeatherLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FADC91C4E806000C97F22 /* CurrentWeatherLoader.swift */; };
+		570FADCC1C4E85BA00C97F22 /* NSNotificationCenterKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FADCB1C4E85BA00C97F22 /* NSNotificationCenterKeys.swift */; };
+		570FADCE1C4E913300C97F22 /* FiveDayWeatherLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FADCD1C4E913300C97F22 /* FiveDayWeatherLoader.swift */; };
+		570FADD01C4E929A00C97F22 /* FiveDayWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FADCF1C4E929A00C97F22 /* FiveDayWeatherData.swift */; };
+		570FADD81C4EC08200C97F22 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FADD71C4EC08200C97F22 /* BackgroundView.swift */; };
+		570FADDC1C4ED65E00C97F22 /* WeeklyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FADDB1C4ED65E00C97F22 /* WeeklyTableViewController.swift */; };
+		570FADDE1C4EDD6800C97F22 /* DailyWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FADDD1C4EDD6800C97F22 /* DailyWeatherTableViewCell.swift */; };
+		570FADE01C4EFC0B00C97F22 /* TemperatureConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FADDF1C4EFC0B00C97F22 /* TemperatureConversion.swift */; };
 		57336A0F1C47119B007C879A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57336A0E1C47119B007C879A /* AppDelegate.swift */; };
 		57336A111C47119B007C879A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57336A101C47119B007C879A /* ViewController.swift */; };
 		57336A141C47119B007C879A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57336A121C47119B007C879A /* Main.storyboard */; };
@@ -17,6 +26,8 @@
 		57CE453F1C47171C00F98E44 /* GPSLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE453E1C47171C00F98E44 /* GPSLocation.swift */; };
 		57CE45411C47190C00F98E44 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CE45401C47190C00F98E44 /* CoreLocation.framework */; };
 		57CE45451C4719B000F98E44 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE45441C4719B000F98E44 /* Notes.swift */; };
+		57CE45471C4863FE00F98E44 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE45461C4863FE00F98E44 /* CurrentWeatherData.swift */; };
+		57CE45491C48687000F98E44 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE45481C48687000F98E44 /* NetworkRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		570FADC71C4E7F7800C97F22 /* OWInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWInterface.swift; sourceTree = "<group>"; };
+		570FADC91C4E806000C97F22 /* CurrentWeatherLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeatherLoader.swift; sourceTree = "<group>"; };
+		570FADCB1C4E85BA00C97F22 /* NSNotificationCenterKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNotificationCenterKeys.swift; sourceTree = "<group>"; };
+		570FADCD1C4E913300C97F22 /* FiveDayWeatherLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveDayWeatherLoader.swift; sourceTree = "<group>"; };
+		570FADCF1C4E929A00C97F22 /* FiveDayWeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveDayWeatherData.swift; sourceTree = "<group>"; };
+		570FADD71C4EC08200C97F22 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		570FADDB1C4ED65E00C97F22 /* WeeklyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyTableViewController.swift; sourceTree = "<group>"; };
+		570FADDD1C4EDD6800C97F22 /* DailyWeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		570FADDF1C4EFC0B00C97F22 /* TemperatureConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureConversion.swift; sourceTree = "<group>"; };
 		57336A0B1C47119B007C879A /* Entropy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Entropy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57336A0E1C47119B007C879A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57336A101C47119B007C879A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +73,8 @@
 		57CE453E1C47171C00F98E44 /* GPSLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSLocation.swift; sourceTree = "<group>"; };
 		57CE45401C47190C00F98E44 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		57CE45441C4719B000F98E44 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		57CE45461C4863FE00F98E44 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
+		57CE45481C48687000F98E44 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570FADD11C4EBEA400C97F22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				570FADCD1C4E913300C97F22 /* FiveDayWeatherLoader.swift */,
+				570FADCF1C4E929A00C97F22 /* FiveDayWeatherData.swift */,
+				570FADDF1C4EFC0B00C97F22 /* TemperatureConversion.swift */,
+				570FADC91C4E806000C97F22 /* CurrentWeatherLoader.swift */,
+				57CE45461C4863FE00F98E44 /* CurrentWeatherData.swift */,
+				570FADC71C4E7F7800C97F22 /* OWInterface.swift */,
+				57CE453E1C47171C00F98E44 /* GPSLocation.swift */,
+				57CE45481C48687000F98E44 /* NetworkRequest.swift */,
+				570FADCB1C4E85BA00C97F22 /* NSNotificationCenterKeys.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		570FADD21C4EBEB600C97F22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				570FADD71C4EC08200C97F22 /* BackgroundView.swift */,
+				57336A121C47119B007C879A /* Main.storyboard */,
+				57336A171C47119B007C879A /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		570FADD31C4EBEBE00C97F22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57336A101C47119B007C879A /* ViewController.swift */,
+				570FADDB1C4ED65E00C97F22 /* WeeklyTableViewController.swift */,
+				570FADDD1C4EDD6800C97F22 /* DailyWeatherTableViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		570FADD41C4EBEF900C97F22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57336A0E1C47119B007C879A /* AppDelegate.swift */,
+				57336A151C47119B007C879A /* Assets.xcassets */,
+				57336A1A1C47119B007C879A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		57336A021C47119B007C879A = {
 			isa = PBXGroup;
 			children = (
@@ -106,13 +174,10 @@
 		57336A0D1C47119B007C879A /* Entropy */ = {
 			isa = PBXGroup;
 			children = (
-				57336A0E1C47119B007C879A /* AppDelegate.swift */,
-				57336A101C47119B007C879A /* ViewController.swift */,
-				57CE453E1C47171C00F98E44 /* GPSLocation.swift */,
-				57336A121C47119B007C879A /* Main.storyboard */,
-				57336A151C47119B007C879A /* Assets.xcassets */,
-				57336A171C47119B007C879A /* LaunchScreen.storyboard */,
-				57336A1A1C47119B007C879A /* Info.plist */,
+				570FADD31C4EBEBE00C97F22 /* Controllers */,
+				570FADD21C4EBEB600C97F22 /* Views */,
+				570FADD11C4EBEA400C97F22 /* Models */,
+				570FADD41C4EBEF900C97F22 /* Supporting Files */,
 			);
 			path = Entropy;
 			sourceTree = "<group>";
@@ -269,10 +334,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570FADE01C4EFC0B00C97F22 /* TemperatureConversion.swift in Sources */,
+				570FADCE1C4E913300C97F22 /* FiveDayWeatherLoader.swift in Sources */,
 				57CE453F1C47171C00F98E44 /* GPSLocation.swift in Sources */,
+				570FADD81C4EC08200C97F22 /* BackgroundView.swift in Sources */,
+				57CE45471C4863FE00F98E44 /* CurrentWeatherData.swift in Sources */,
+				570FADD01C4E929A00C97F22 /* FiveDayWeatherData.swift in Sources */,
 				57336A111C47119B007C879A /* ViewController.swift in Sources */,
+				570FADC81C4E7F7800C97F22 /* OWInterface.swift in Sources */,
+				570FADCC1C4E85BA00C97F22 /* NSNotificationCenterKeys.swift in Sources */,
 				57336A0F1C47119B007C879A /* AppDelegate.swift in Sources */,
+				570FADDC1C4ED65E00C97F22 /* WeeklyTableViewController.swift in Sources */,
+				57CE45491C48687000F98E44 /* NetworkRequest.swift in Sources */,
 				57CE45451C4719B000F98E44 /* Notes.swift in Sources */,
+				570FADDE1C4EDD6800C97F22 /* DailyWeatherTableViewCell.swift in Sources */,
+				570FADCA1C4E806000C97F22 /* CurrentWeatherLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

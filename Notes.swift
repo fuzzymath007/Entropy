@@ -9,3 +9,7 @@
 //Remember to change text for why we are asking for location
 
 //We Allow Arbitrary Loads in custom ios target properties so we can get our api calls to work 
+
+//Add more HPPT codes to NetworkRequest to handle erros
+
+//Replace the text of Some Title
